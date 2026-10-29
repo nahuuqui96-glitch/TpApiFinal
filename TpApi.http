@@ -1,0 +1,6 @@
+@TpApi_HostAddress = http://localhost:5233
+
+GET {{TpApi_HostAddress}}/TpApi/
+Accept: application/json
+
+###
