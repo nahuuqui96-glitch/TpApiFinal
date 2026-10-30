@@ -168,3 +168,4 @@ C:\Users\Nahuu\Desktop\2doProgramador\ProgramacionObjetos\TpFinal\TpApi\obj\Debu
 C:\Users\Nahuu\Desktop\2doProgramador\ProgramacionObjetos\TpFinal\TpApi\obj\Debug\net10.0\ref\TpApi.dll
 C:\Users\Nahuu\Desktop\2doProgramador\ProgramacionObjetos\TpFinal\TpApi\bin\Debug\net10.0\System.Security.Cryptography.Pkcs.dll
 C:\Users\Nahuu\Desktop\2doProgramador\ProgramacionObjetos\TpFinal\TpApi\bin\Debug\net10.0\runtimes\win\lib\net10.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\Nahuu\Desktop\2doProgramador\ProgramacionObjetos\TpFinal\TpApi\obj\Debug\net10.0\TpApi.sourcelink.json

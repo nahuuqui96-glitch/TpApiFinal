@@ -1,6 +1,7 @@
 namespace TpApi.Model;
 
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
 
 public class Producto : Entity
 {   
@@ -13,10 +14,10 @@ public class Producto : Entity
     [Column(TypeName = "decimal(10,2)")]
     public decimal Precio { get; set; }    
 
-    // Clave Foranea hacia Proveedor
     public int ProveedorId { get; set; }
 
     [ForeignKey("ProveedorId")]
+    [JsonIgnore] // Evita la referencia circular al serializar a JSON
     public virtual Proveedor? Proveedor { get; set; }
 }
 
